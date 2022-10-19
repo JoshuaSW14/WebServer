@@ -24,8 +24,8 @@
 #define numberOfHours(_time_) ((_time_ % SECS_PER_DAY) / SECS_PER_HOUR) //Calculates the number of hours
 
 // access credentials for WiFi network.
-const char *ssid = "Hawkins"; //Mohawk-IoT
-const char *password = "bobbyorr"; //IoT@MohawK1
+const char *ssid = "Mohawk-IoT"; 
+const char *password = "IoT@MohawK1"; 
 
 const int oneWireBus = D3; //Pin for OneWire Sensor
 unsigned long currentTime = millis(); //Running time for arduino
